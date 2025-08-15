@@ -1,0 +1,16 @@
+[workspace]
+name = "telight-light-client"
+description = "Python environments for the Telight-EDIH-IT4I project, client to the segmentation server"
+authors = ["Vladimír Ulman <vladimir.ulman@vsb.cz>"]
+
+license = "BSD-3-Clause"
+license-file = "../../LICENSE"
+readme = "../../README.md"
+
+platforms = ["linux-64", "win-64"]
+channels = ["conda-forge", "pytorch"]
+version = "0.1.0"
+
+[dependencies]
+python = "*"
+requests = "*"
